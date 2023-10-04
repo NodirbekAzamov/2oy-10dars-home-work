@@ -127,6 +127,8 @@ article {
                         font-size: 15px;
                         font-weight: 700;
                         line-height: 28.8px;
+                        cursor: pointer;
+                        border: none;
                     }
                 }
             }
@@ -309,7 +311,19 @@ article {
                     align-items: center;
                     flex-direction: column;
                     text-align: center;
-
+                    .many_bg {
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+                        position: relative;
+    
+                        span {
+                            position: absolute;
+                            font-size: 30px;
+                            top: 10px;
+                            left: 15px;
+                        }
+                    }
                     h4 {
                         font-size: 25px;
                         line-height: 50px;
