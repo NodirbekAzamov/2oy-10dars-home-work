@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url(../fonts/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Bold";
+  src: url(../fonts/DMSans-Bold.ttf);
+}
+section .container .section_many {
+  padding-bottom: 160px;
+}
+section .container .section_many .section_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 93px;
+}
+section .container .section_many .section_footer h2 {
+  color: #FFF;
+  font-family: "Regular";
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 79.2px;
+  letter-spacing: 2.88px;
+}
+section .container .section_many .section_boxs .section_box {
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+  padding: 30px 20px;
+  border-radius: 32px;
+  background: #000;
+  margin-top: 60px;
+}
+section .container .section_many .section_boxs .section_box .section_img {
+  width: 100%;
+}
+section .container .section_many .section_boxs .section_box .section_img img {
+  width: 100%;
+}
+section .container .section_many .section_boxs .section_box .section_box_right .section-btn {
+  border-radius: 6px;
+  background: #191919;
+  padding: 0 16px;
+  color: #FFF;
+  font-family: "Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  border: none;
+  margin-bottom: 32px;
+}
+section .container .section_many .section_boxs .section_box .section_box_right p {
+  color: #118DA8;
+  font-family: "REgular";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+}
+section .container .section_many .section_boxs .section_box .section_box_right h3 {
+  color: #FFF;
+  font-family: "Regular";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70.4px;
+  margin-top: 18px;
+}
+section .container .section_many .section_boxs .section_box .section_box_right p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Regular";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  margin-top: 28px;
+  margin-bottom: 18px;
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  section .container .section_many .section_footer h2 {
+    font-size: 54px;
+    line-height: 79.2px;
+  }
+  section .container .section_many .section_boxs .section_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  section .container .section_many .section_boxs .section_box .section_img {
+    width: 80%;
+  }
+  section .container .section_many .section_boxs .section_box .section_img img {
+    width: 100%;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right .section_box_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right .section_box_item .section-btn {
+    padding: 0 16px;
+    margin: 0;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right .section_box_item p {
+    padding: 0;
+    margin: 0;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right h3 {
+    font-size: 60px;
+    line-height: 70.4px;
+  }
+}
+@media (min-width: 769px) and (max-width: 989px) {
+  section .container .section_many .section_footer h2 {
+    font-size: 40px;
+    line-height: 0px;
+  }
+  section .container .section_many .section_boxs .section_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  section .container .section_many .section_boxs .section_box .section_img {
+    width: 80%;
+  }
+  section .container .section_many .section_boxs .section_box .section_img img {
+    width: 100%;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right .section_box_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right .section_box_item .section-btn {
+    padding: 0 16px;
+    margin: 0;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right .section_box_item p {
+    padding: 0;
+    margin: 0;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right h3 {
+    font-size: 45px;
+    line-height: 70.4px;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right p {
+    font-size: 20px;
+    line-height: 33px;
+  }
+}
+@media (min-width: 447px) and (max-width: 768px) {
+  section .container .section_many .section_footer h2 {
+    font-size: 25px;
+    line-height: 0px;
+  }
+  section .container .section_many .section_boxs .section_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  section .container .section_many .section_boxs .section_box .section_img {
+    width: 80%;
+  }
+  section .container .section_many .section_boxs .section_box .section_img img {
+    width: 100%;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right .section_box_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right .section_box_item .section-btn {
+    padding: 0 16px;
+    margin: 0;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right .section_box_item p {
+    padding: 0;
+    margin: 0;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right h3 {
+    font-size: 35px;
+    line-height: 50.4px;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 446px) {
+  section .container .section_many .section_footer {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  section .container .section_many .section_footer h2 {
+    font-size: 25px;
+    line-height: 0px;
+  }
+  section .container .section_many .section_boxs .section_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  section .container .section_many .section_boxs .section_box .section_img {
+    width: 80%;
+  }
+  section .container .section_many .section_boxs .section_box .section_img img {
+    width: 100%;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right .section_box_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right .section_box_item .section-btn {
+    padding: 0 16px;
+    margin: 0;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right .section_box_item p {
+    padding: 0;
+    margin: 0;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right h3 {
+    font-size: 25px;
+    line-height: 30.4px;
+  }
+  section .container .section_many .section_boxs .section_box .section_box_right p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}/*# sourceMappingURL=style.css.map */
