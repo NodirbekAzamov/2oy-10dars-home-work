@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url(../fonts/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Bold";
+  src: url(../fonts/DMSans-Bold.ttf);
+}
+main .container .main_many {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+main .container .main_many .many_left .many_bg {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  background: #118DA8;
+  position: relative;
+}
+main .container .main_many .many_left .many_bg span {
+  color: #fff;
+  position: absolute;
+  font-size: 40px;
+  top: 26px;
+  left: 37px;
+}
+main .container .main_many .many_left h6 {
+  color: #118DA8;
+  font-family: "Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 20px;
+}
+main .container .main_many .many_left h4 {
+  color: #FFF;
+  font-family: "Bold";
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 79.2px;
+  letter-spacing: 2.88px;
+}
+main .container .main_many .many_left p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Regular";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+}
+main .container .main_many img {
+  width: 100%;
+}
+
+article .container .article_boxs {
+  margin: 100px 0;
+  border-radius: 32px;
+  background: #000;
+}
+article .container .article_boxs .article_box {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+article .container .article_boxs .article_box .article_left h6 {
+  color: #118DA8;
+  font-family: "Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+article .container .article_boxs .article_box .article_left h4 {
+  color: #FFF;
+  font-family: "Regular";
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 79.2px;
+  letter-spacing: 2.88px;
+}
+article .container .article_boxs .article_box form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 522px;
+}
+article .container .article_boxs .article_box form input {
+  border-radius: 6px;
+  border: 1px solid #191919;
+  background: #191919;
+  padding: 26px 19px;
+  width: 552px;
+}
+article .container .article_boxs .article_box form button {
+  padding: 10px 16px;
+  width: 87px;
+  border-radius: 6px;
+  background: #118DA8;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Bold";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 28.8px;
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  main .container .main_many {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  main .container .main_many .many_left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  article .container .article_boxs .article_box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  article .container .article_boxs .article_box .article_left {
+    text-align: center;
+  }
+}
+@media (min-width: 770px) and (max-width: 989px) {
+  main .container .main_many {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  main .container .main_many .many_left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  main .container .main_many .many_left h6 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  main .container .main_many .many_left h4 {
+    font-size: 55px;
+    line-height: 79.2px;
+  }
+  main .container .main_many .many_left p {
+    font-size: 20px;
+    line-height: 33px;
+  }
+  article .container .article_boxs .article_box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  article .container .article_boxs .article_box .article_left {
+    text-align: center;
+  }
+  article .container .article_boxs .article_box .article_left h6 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  article .container .article_boxs .article_box .article_left h4 {
+    font-size: 60px;
+    line-height: 65.2px;
+  }
+}
+@media (min-width: 448px) and (max-width: 769px) {
+  main .container .main_many {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  main .container .main_many .many_left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  main .container .main_many .many_left h4 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  main .container .main_many .many_left p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  article .container .article_boxs .article_box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  article .container .article_boxs .article_box .article_left {
+    text-align: center;
+  }
+  article .container .article_boxs .article_box .article_left h6 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  article .container .article_boxs .article_box .article_left h4 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  article .container .article_boxs .article_box form {
+    display: flex;
+    justify-content: center;
+  }
+  article .container .article_boxs .article_box form input {
+    padding: 20px 14px;
+    width: 350px;
+  }
+}
+@media (max-width: 447px) {
+  main .container .main_many {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  main .container .main_many .many_left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  main .container .main_many .many_left h4 {
+    font-size: 25px;
+    line-height: 50px;
+  }
+  main .container .main_many .many_left p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  article .container .article_boxs .article_box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  article .container .article_boxs .article_box .article_left {
+    text-align: center;
+  }
+  article .container .article_boxs .article_box .article_left h6 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  article .container .article_boxs .article_box .article_left h4 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  article .container .article_boxs .article_box form {
+    display: flex;
+    justify-content: center;
+  }
+  article .container .article_boxs .article_box form input {
+    padding: 8px 10px;
+    width: 200px;
+  }
+}/*# sourceMappingURL=style.css.map */
